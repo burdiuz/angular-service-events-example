@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular Data Mapping</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="application" ng-controller="Application as application">
+<input type="text" ng-model="application.inputData">
+<button ng-click="application.reset()">Reset</button>
+<hr/>
+Directive 1:
+<custom></custom>
+<br/>
+Directive 2:
+<custom></custom>
+</body>
+<!-- core libraries -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<!-- angular components api -->
+<script type="text/javascript" src="src/shared.js"></script>
+<script type="text/javascript" src="src/custom.service.js"></script>
+<script type="text/javascript" src="src/custom.listener.service.js"></script>
+<script type="text/javascript" src="src/custom.dispatcher.service.js"></script>
+<script type="text/javascript" src="src/application.js"></script>
+<script type="text/javascript" src="src/custom.directive.js"></script>
+<!-- custom scripts, components, stuff -->
+</html>

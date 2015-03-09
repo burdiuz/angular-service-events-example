@@ -1,0 +1,9 @@
+{
+  "name": "angular-service-events-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": ">=1.9",
+    "bootstrap": ">=3",
+    "angular": ">=1.2.0"
+  }
+}
