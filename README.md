@@ -8,7 +8,7 @@ $http.get('/url').then(...
 ```
 
 ###### Use events
-Events an be used to globally notify about changes in service current state.
+Events can be used to globally notify about changes in service current state. Easiest way to emit event from $rootScope, so it will not be propagated deeply and can be captured from $rootScope.
 ```javascript
 $rootScope.$emit('event-name', ...
 ```
