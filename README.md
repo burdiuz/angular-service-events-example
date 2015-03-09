@@ -33,7 +33,7 @@ Benefits:
  * Having method to send and method to receive specific event connection will stronger, no need to test it every time its used.
 
 Download this repo for an example. 
-====
+--------------
 We have events to fire
 ```javascript
 /**
