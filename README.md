@@ -166,7 +166,7 @@ And service to listen for fired events
   ]);
 })(angular.module('aw.servicevents'));
 ```
-After this you can use dispatcher service in main Customservice to fire events.
+After this you can use dispatcher service in main CustomService to fire events.
 ```javascript
   /**
    * @param $interval
