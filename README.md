@@ -1,9 +1,6 @@
 # angular-service-events-example
 
 Angular service can notify about changes in different ways, most common are:
- 1. Use promises
- 2. Use events
-
 ###### Use promises
 This is best solution if you can handle notification in same place where they requested.
 ```javascript
