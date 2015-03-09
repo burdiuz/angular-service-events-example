@@ -40,7 +40,7 @@
       '$rootScope',
       function config($rootScope) {
         // create new scope for each dispatcher instead of thinking about event namespaces and naming conventions
-        dispatcher.setScope($rootScope.$new());
+        dispatcher.setScope($rootScope.$new(true));
         console.log('Dispatcher available');
       }
     ]);
